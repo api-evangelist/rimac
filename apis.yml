@@ -1,8 +1,16 @@
 aid: rimac
 name: Rimac
-description: 'Rimac is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: transportation. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Rimac Group is a Croatia-based holding company bringing together exclusive
+  hypercars and advanced electrification technology. Its portfolio spans Bugatti
+  Rimac (the hypercar joint venture behind the all-electric Rimac Nevera),
+  Rimac Technology (design, engineering and production of EV components —
+  battery systems, powertrains, battery management systems and electronic
+  control units supplied to OEMs including Porsche, Hyundai, BMW and others),
+  and Verne (autonomous urban mobility / robotaxi). Rimac is a B2B automotive
+  and electrification supplier and vehicle manufacturer; it does not currently
+  operate a public developer program, API, or developer portal. This profile is
+  maintained in the API Evangelist network for company/portfolio tracking.
 url: https://raw.githubusercontent.com/api-evangelist/rimac/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +18,45 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.rimac-group.com/favicon.ico
 tags:
 - Company
 - Transportation
+- Electric Vehicles
+- Automotive
+- Batteries
+- Electrification
+- Hypercars
+- Mobility
+common:
+- type: DomainSecurity
+  url: security/rimac-domain-security.yml
+- type: Website
+  url: https://www.rimac-group.com/
+- type: Company
+  url: https://www.rimac-group.com/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
